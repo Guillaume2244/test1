@@ -576,7 +576,12 @@ button i.fa {
   background-position: center top;
   background-repeat: no-repeat;
 }
-
+@media (max-width: 1199px) {
+  .bar.background-image-fixed {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+  }
+}
 .bar.background-image-fixed-1 {
   background: url('../img/fixed-background-1.jpg') center top no-repeat;
   background-attachment: fixed;
