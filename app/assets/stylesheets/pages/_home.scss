@@ -571,16 +571,12 @@ button i.fa {
   background: #fff;
 }
 .bar.background-image-fixed {
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-size: cover !important;
   background-position: center top;
   background-repeat: no-repeat;
 }
-@media (max-width: 1199px) {
-  .bar.background-image-fixed {
-    background-attachment: scroll;
-  }
-}
+
 .bar.background-image-fixed-1 {
   background: url('../img/fixed-background-1.jpg') center top no-repeat;
   background-attachment: fixed;
